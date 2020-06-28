@@ -1,0 +1,19 @@
+﻿<Window x:Class="enpra05_b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:enpra05_b"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Name="text1_textbox" Height="150" Margin="50,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Name="text2_textbox" Height="150" Margin="180,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBlock HorizontalAlignment="Left" Name="output_textblock" Height="150" Margin="500,145,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Button Content="出力" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="350,282,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Height="30" Margin="50,80,0,0" Text="Text1" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Height="30" Margin="180,80,0,0" Text="Text2" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="20" Height="30" Margin="500,80,0,0" Text="Text" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+
+    </Grid>
+</Window>
